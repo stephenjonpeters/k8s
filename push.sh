@@ -1,1 +1,1 @@
-docker push stevepeters/blue:latest
+docker push stevepeters/green:latest

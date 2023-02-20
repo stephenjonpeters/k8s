@@ -1,1 +1,1 @@
-docker build . -t stevepeters/blue
+docker build . -t stevepeters/green
