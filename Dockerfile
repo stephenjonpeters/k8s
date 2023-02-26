@@ -1,10 +1,9 @@
 FROM node:16
-
-
+ARG DEPLOY_COLOR
 WORKDIR /usr/src/app
 
 COPY package*.json ./
-COPY index.html ./
+COPY $DEPLOY_COLOR-index.html ./index.html
 
 RUN npm install
 
